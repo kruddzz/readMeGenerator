@@ -1,7 +1,11 @@
+// variables
+const inquirer = require("inquirer");
+const axios = require("axios");
+const fs = require("fs");
+const util = require("util");
 /* 
 1) write question for inquier
 */
-
 // array of questions for user
 const questions = [
     {
@@ -33,7 +37,7 @@ const questions = [
         name: "credits",
         message: " List your collaborators, if any, with links to their GitHub profiles.If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. If you followed tutorials, include links to those here as well."
     },
-// might want to use differenct input option for license
+    // might want to use differenct input option for license
     {
         type:"input",
         name: "license",
