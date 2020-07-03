@@ -2,7 +2,7 @@
 // figure out license badge.
 // Do I need a second badge specific to the repo
 function generateMarkdown(data) {
-  return `#
+  return `
   # Project Title : ${data.title}
 
   ## Project Description: ${data.description}

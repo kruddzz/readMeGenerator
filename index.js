@@ -1,8 +1,9 @@
 // variables
 const inquirer = require("inquirer");
-const axios = require("axios");
 const fs = require("fs");
 const util = require("util");
+
+const writeFileAsync = util.promisify(fs.writeFile)
 /* 
 1) write question for inquier
 */
@@ -79,7 +80,10 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions)
+        .then(answers => {
+            console.log(answers)
+});
 }
 
 // function call to initialize program
