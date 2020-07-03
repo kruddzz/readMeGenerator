@@ -8,7 +8,7 @@
   * [Usage](#usage)
   * [License](#license)
   * [Credits](#credits)
-  * [Contributing](#contributing)
+  * [Contributors](#contributors)
   * [Test](#test)
   * [Questions](#questions)
   
@@ -16,11 +16,11 @@
 
   ## Usage: 
 
-  ##License: 
+  ## License: 
 
   ## Credits: 
   
-  ## Contributors: undefined
+  ## Contributors: 
 
   ## Test: 
 

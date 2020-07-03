@@ -48,7 +48,7 @@ const questions = [
 
     {
         type: "input",
-        name: "contributing",
+        name: "contributors",
         message: "If you would like other developers to contribute, what are your guidelines? (ex. Contributor Covenant)"
     },
 
@@ -74,10 +74,6 @@ const questions = [
     },
 
 ];
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
 
 // function to initialize program
 async function init() {

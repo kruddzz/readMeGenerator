@@ -12,7 +12,7 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [License](#license)
   * [Credits](#credits)
-  * [Contributing](#contributing)
+  * [Contributors](#contributors)
   * [Test](#test)
   * [Questions](#questions)
   
@@ -20,7 +20,7 @@ function generateMarkdown(data) {
 
   ## Usage: ${data.usage}
 
-  ##License: ${data.license}
+  ## License: ${data.license}
 
   ## Credits: ${data.credits}
   
