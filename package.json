@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kruddzz/readMeGenerator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/kruddzz/readMeGenerator/issues"
+  },
+  "homepage": "https://github.com/kruddzz/readMeGenerator#readme"
 }
