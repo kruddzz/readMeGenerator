@@ -3,6 +3,8 @@
 // Do I need a second badge specific to the repo
 function generateMarkdown(data) {
   return `
+  ${data.license}
+  
   # Project Title : ${data.title}
 
   ## Project Description: ${data.description}
@@ -31,6 +33,7 @@ function generateMarkdown(data) {
   ## Questions:
   ${data.question}
   Email: ${data.email}
+  <br>
   Git Hub Profile: https://github.com/${data.userName}
 `;
 }
