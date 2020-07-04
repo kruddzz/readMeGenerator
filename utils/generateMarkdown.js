@@ -4,10 +4,12 @@
 function generateMarkdown(data) {
   return `
   ${data.license}
-  
-  # Project Title : ${data.title}
 
-  ## Project Description: ${data.description}
+  # Project Title: ${data.title}
+
+  ## Project Description:
+ 
+  ${data.description}
 
   ## Table of Contents
   * [Installation](#installation)
@@ -17,25 +19,43 @@ function generateMarkdown(data) {
   * [Contributors](#contributors)
   * [Test](#test)
   * [Questions](#questions)
+  * [Badges](#badges)
   
-  ## Installation: ${data.install}
+  ## Installation:
+ 
+  ${data.install}
 
-  ## Usage: ${data.usage}
+  ## Usage:
+ 
+  ${data.usage}
 
-  ## License: ${data.license}
+  ## License:
+  ${data.license}
 
-  ## Credits: ${data.credits}
+  ## Credits:
+
+  ${data.credits}
   
-  ## Contributors: ${data.contributors}
+  ## Contributors:
+  
+  ${data.contributors}
 
-  ## Test: ${data.test}
+  ## Test:
+   
+  ${data.test}
 
   ## Questions:
-  ${data.question}
-  Email: ${data.email}
   <br>
+  ${data.question}
+  
+  Email: ${data.email}
+  
   Git Hub Profile: https://github.com/${data.userName}
-`;
-}
 
+  ## Badges:
+  ![GitHub followers](https://img.shields.io/github/followers/${data.userName}?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/${data.userName}/${data.repoName}?style=social)
+
+  `;
+}
 module.exports = generateMarkdown;
