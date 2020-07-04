@@ -14,6 +14,7 @@
   * [Credits](#credits)
   * [Contributors](#contributors)
   * [Test](#test)
+  * [Screenshot](#screenshot) 
   * [Questions](#questions)
   * [Badges](#badges)
   
@@ -30,7 +31,7 @@
 
   ## Credits:
 
-  none
+  Kyle Rudderforth: https://github.com/kruddzz/readMeGenerator
   
   ## Contributors:
   
@@ -39,6 +40,16 @@
   ## Test:
    
   No test
+
+  ## Screenshot:
+
+  ![screenshot](images/shot1.png)
+  ![screenshot](images/shot2.png)
+  ![screenshot](images/shot3.png)
+
+  ## Video
+
+  https://www.youtube.com/watch?v=DG-odVP_WWE&feature=youtu.be
 
   ## Questions:
   

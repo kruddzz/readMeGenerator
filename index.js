@@ -24,7 +24,7 @@ const questions = [
 
     {
         type: "input",
-        name:   "install",
+        name:  "install",
         message: "What are the steps required to install the project?"
     },
 
@@ -76,7 +76,7 @@ const questions = [
         name:  "question",
         message: "Type instructions on how to reach you with additional questions."
     },
-    
+
     {
         type: "input",
         name:  "repoName",
@@ -92,7 +92,7 @@ async function init() {
         
         const md = generateMarkdown(data);
 
-        await writeFileAsync("README.md", md);
+        await writeFileAsync("newReadMe.md", md);
 
          console.log("Successfully wrote to README.md");
      }    catch(err) {
